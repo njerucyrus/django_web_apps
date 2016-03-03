@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Try-Django-1.8-master/.idea/Try-Django-1.8-master.iml" filepath="$PROJECT_DIR$/../../Try-Django-1.8-master/.idea/Try-Django-1.8-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/culibrary.iml" filepath="$PROJECT_DIR$/.idea/culibrary.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/homeworkmarket/.idea/homeworkmarket.iml" filepath="$USER_HOME$/PycharmProjects/homeworkmarket/.idea/homeworkmarket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../musicpro/.idea/musicpro.iml" filepath="$PROJECT_DIR$/../musicpro/.idea/musicpro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../musicpro254/.idea/musicpro254.iml" filepath="$PROJECT_DIR$/../musicpro254/.idea/musicpro254.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scloudshop/.idea/scloudshop.iml" filepath="$PROJECT_DIR$/../scloudshop/.idea/scloudshop.iml" />
+    </modules>
+  </component>
+</project>

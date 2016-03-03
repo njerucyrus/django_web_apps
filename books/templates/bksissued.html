@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Issued</title>
+</head>
+<body>
+{% block  content %}
+
+
+<div class="row col-md-6">
+    <ul class="list-group-item-success">
+        {% for bks in bks_issued %}
+            <li class="list-view">{{ bks.student_reg_no }} {{ bks.student_phone }}</li>
+        {% endfor %}
+
+    </ul>
+
+</div>
+{% endblock %}
+</body>
+</html>

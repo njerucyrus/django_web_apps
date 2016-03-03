@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+
+   <div>
+        <form method="post" action="/">{% csrf_token %}
+            <input type="text" name="txtsearch" placeholder="search by bkno or title">
+            <input type="submit"value="search book" class="btn btn-primary">
+        </form>
+
+   </div>
+
+   <div class="table-responsive">
+    <table class="table">
+     <th>#</th> <th>Bk No</th><th>Title</th><th>Category</th><th>Publisher</th>
+     {% for book in books %}
+
+
+         <tr class="active">
+         <td>{{ forloop.counter }}</td>
+         <td>{{ book.book_no }}</td>
+
+         <td>{{ book.book_title }}</td>
+         <td>{{ book.book_category }}</td>
+         <td>{{ book.publisher }}</td>
+         <td><a href="#" class="btn btn-success">issue this book</a> </td>
+
+         </tr>
+
+     {% endfor %}
+
+    </table>
+   </div>
+{% endblock %}
+
+</body>
+</html>
